@@ -1,0 +1,48 @@
+# params for cost maps
+n: 40
+mu: 31.875
+U: 127
+alpha: 4.5
+gamma: 1
+
+# ellipse area for different gait-terrain combinations
+ellipse_area_stable_trot: 28.14
+ellipse_area_resistance_amble: 29.96
+ellipse_area_granular_crawl: 29.95
+ellipse_area_poorFoothold_amble: 29.99
+
+# path of proprioception data
+path_stable_trot: "/home/srivabhi22/Desktop/navigation/data/sensor/preprocessed_stable_trot.csv"
+path_terrain: "/home/srivabhi22/Desktop/navigation/data/sensor/quadruped_proprioceptive_data_with_trends.csv"
+
+# path of image
+image_path: "/home/srivabhi22/Desktop/navigation/data/image/current_image.png"
+
+# path of point cloud
+pcd_path: "/home/srivabhi22/Desktop/navigation/data/point_cloud/current_point_cloud.pcd"
+
+# path of cost maps
+gen_map: "/home/srivabhi22/Desktop/navigation/data/image/general_knowledge_map.npy"
+hist_map: "/home/srivabhi22/Desktop/navigation/data/image/history_map.npy"
+curr_map: "/home/srivabhi22/Desktop/navigation/data/image/current_proprioceptive_map.npy"
+coupled_map: "/home/srivabhi22/Desktop/navigation/data/image/coupled_map.npy"
+
+# planner params
+goal_from_picture_x: 10.0
+goal_from_picture_y: 10.0
+sampling_interval: 0.5
+prediction_step: 30
+
+max_accelation: 1
+max_ang_accelation: 1.74   # 100*pi/180
+lim_max_velo: 0.6  # m/s
+lim_min_velo: 0.0  # m/s
+lim_max_ang_velo: +0.2
+lim_min_ang_velo: -0.2
+
+delta_velo: 0.02
+delta_ang_velo: 0.02
+weight_end_dist: 0.5  # 0.5
+weight_surr: 0.2  # 0.002
+weight_obs: 1.5  # 3.2, 2
+area_dis_to_obs: 2
