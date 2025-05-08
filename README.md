@@ -20,8 +20,11 @@ The **AMCO Navigation System** is an advanced autonomous navigation framework de
 ## **Setup Instructions**
 
 1. **Extract the Environment and Data:**
-
-   * Unzip the AMCO virtual environment and data zip files into the main `AMCO` directory.
+   * Download the following in the AMCO directory:
+     amco virtual environment zip file:
+     data zip  file: 
+     
+   * Unzip the amco virtual environment and data zip files into the main `AMCO` directory.
 
 2. **Activate the Virtual Environment:**
 
