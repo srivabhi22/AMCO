@@ -21,8 +21,8 @@ The **AMCO Navigation System** is an advanced autonomous navigation framework de
 
 1. **Extract the Environment and Data:**
    * Download the following in the AMCO directory:
-     amco virtual environment zip file:
-     data zip  file: 
+     * amco virtual environment zip file: https://drive.google.com/file/d/1-QMhpc3Qon9gTuGlkElMi5EpEDypxH1I/view?usp=sharing
+     * data zip  file: https://drive.google.com/file/d/1km8LpZVdTbi53efmQYmIcoX9FcEc9H-U/view?usp=sharing
      
    * Unzip the amco virtual environment and data zip files into the main `AMCO` directory.
 
@@ -31,8 +31,12 @@ The **AMCO Navigation System** is an advanced autonomous navigation framework de
    ```bash
    source amco/bin/activate
    ```
-
-3. **Run the Navigation Script:**
+3. **Modification of Paths:**
+    Navigate to the follwoing files and modify the paths accordingly:
+   * `src/planner/dwa`
+   * `src/preprocessing/map.py`
+  
+5. **Run the Navigation Script:**
    Navigate to the `src/planner` directory and execute the DWA planner script:
 
    ```bash
